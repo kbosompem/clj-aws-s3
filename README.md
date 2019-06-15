@@ -17,7 +17,7 @@ and update the access control lists (ACLs) for buckets and objects.
 
 Add the following dependency to your `project.clj` file:
 
-    [clj-aws-s3 "0.3.10"]
+    [clj-aws-s3 "0.4.190615"]
 
 ## Example
 
@@ -41,6 +41,6 @@ Add the following dependency to your `project.clj` file:
 
 ## License
 
-Copyright © 2014 James Reeves
+Copyright © 2019 James Reeves
 
 Distributed under the Eclipse Public License, the same as Clojure.
