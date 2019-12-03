@@ -1,9 +1,16 @@
-(defproject clj-aws-s3 "0.4.20190615"
-  :description "Clojure Amazon S3 library"
-  :url "https://github.com/weavejester/clj-aws-s3"
+(defproject org.clojars.kbosompem/clj-aws-s3 "0.4.191203"
+  :description "Clojure Amazon S3 library by Weavejester"
+  :url "https://github.com/kbosompem/clj-aws-s3"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.10.0"]
-                 [com.amazonaws/aws-java-sdk "1.11.572"]
-                 [clj-time "0.15.0"]]
-  :plugins [[codox "0.10.7"]])
+  :dependencies [[org.clojure/clojure "1.10.1"]
+                 [commons-logging/commons-logging "1.2"]
+                 [com.fasterxml.jackson.core/jackson-core "2.10.1"]
+                 [com.fasterxml.jackson.dataformat/jackson-dataformat-cbor "2.10.1"]
+                 [com.amazonaws/aws-java-sdk-s3 "1.11.685" :exclusions [com.fasterxml.jackson.core/jackson-core
+                                                                        com.fasterxml.jackson.dataformat/jackson-dataformat-cbor
+                                                                        commons-logging]]
+                 [clj-time "0.15.2"]]
+  :uberjar-name "clj-aws-s3.jar"
+  :plugins [[codox "0.10.7"]
+            [lein-ancient "0.6.15"]])
