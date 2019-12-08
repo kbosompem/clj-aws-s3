@@ -1,5 +1,8 @@
 # clj-aws-s3
 
+[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.kbosompem/clj-aws-s3.svg)](https://clojars.org/org.clojars.kbosompem/clj-aws-s3)
+[![CircleCI](https://circleci.com/gh/kbosompem/clj-aws-s3.svg?style=svg)](https://circleci.com/gh/kbosompem/clj-aws-s3)
+
 ## Introduction
 
 A Clojure library for accessing Amazon S3, based on the official AWS
@@ -17,7 +20,7 @@ and update the access control lists (ACLs) for buckets and objects.
 
 Add the following dependency to your `project.clj` file:
 
-    [clj-aws-s3 "0.4.190615"]
+    [org.clojars.kbosompem/clj-aws-s3 "0.4.191203"]
 
 ## Example
 

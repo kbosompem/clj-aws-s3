@@ -7,7 +7,7 @@
                  [commons-logging/commons-logging "1.2"]
                  [com.fasterxml.jackson.core/jackson-core "2.10.1"]
                  [com.fasterxml.jackson.dataformat/jackson-dataformat-cbor "2.10.1"]
-                 [com.amazonaws/aws-java-sdk-s3 "1.11.685" :exclusions [com.fasterxml.jackson.core/jackson-core
+                 [com.amazonaws/aws-java-sdk-s3 "1.11.688" :exclusions [com.fasterxml.jackson.core/jackson-core
                                                                         com.fasterxml.jackson.dataformat/jackson-dataformat-cbor
                                                                         commons-logging]]
                  [clj-time "0.15.2"]]
